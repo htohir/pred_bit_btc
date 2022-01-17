@@ -1,0 +1,10 @@
+<html>
+	<body>
+		<h1>Prediksi bitcoin btc/hari linear regression </h1>
+		<form action="{{ url_for('predict')}}" method="POST">
+			<input type="text" name="year" placeholder="Masukkan angka pengganti tanggal, contoh :2788(18 januari 2022) dan berikutnya">
+			<button type="submit">Predict</button>
+		</form>
+		<h1>Hasil prediksinyah:{{prediction_text}} usd</h1>
+	</body>
+</html>
